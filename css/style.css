@@ -1,0 +1,28 @@
+
+body {
+
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;    /* burada 3 tane olmasinin sebebi bazi bilgisayarlarda her yazi stilinin calismiyor olmasi. o yuzden biri olmazsa digerini calistiriyor.*/
+    color: #4676a9;           /* color:inherit yazarsak linklerdeki maviligi normale döndürür.*/
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif; 
+    color: #cb721c;
+}
+
+p {
+    font-family: sans-serif; 
+}
+
+footer {
+    background-color: #22466c;
+    color: #fff;
+}
