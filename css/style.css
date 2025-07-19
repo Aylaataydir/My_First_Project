@@ -27,6 +27,8 @@ section {
 
 header {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .primary-navigation ul{
@@ -35,10 +37,18 @@ header {
     gap: 30px;
 }
 
-
-.primary-navigation{
-    
+.primary-navigation a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
+
+.primary-navigation a:hover
+.primary-navigation a:focus-visible{
+    color: rgb(166, 238, 58);
+}
+
+
 
 
 h1 {
