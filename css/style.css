@@ -19,7 +19,7 @@ section {
 .two-column {
     display: grid;
     gap: 60px;
-    
+
     margin-block-end: 60px;
 
     @media (min-width: 720px) {
@@ -27,91 +27,92 @@ section {
     }
 }
 
-    header {
-        text-align: center;
-        display: flex;
-        justify-content: space-between;
-    }
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
 
-    .primary-navigation ul {
-        list-style: none;
-        display: flex;
-        gap: 30px;
-    }
+.primary-navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
 
-    .primary-navigation a {
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-    }
+.primary-navigation a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 
-    .primary-navigation a:hover .primary-navigation a:focus-visible {
-        color: rgb(166, 238, 58);
-    }
-
-
+.primary-navigation a:hover .primary-navigation a:focus-visible {
+    color: rgb(166, 238, 58);
+}
 
 
-    h1 {
-        font-family: sans-serif;
-        /* burada 3 tane olmasinin sebebi bazi bilgisayarlarda her yazi stilinin calismiyor olmasi. o yuzden biri olmazsa digerini calistiriyor.*/
-        color: #474849;
-        /* color:inherit yazarsak linklerdeki maviligi normale döndürür.*/
-        text-align: center;
-        line-height: 1, 1;
-        font-size: 65px;
 
-         @media (min-width: 720px) {
+
+h1 {
+    font-family: sans-serif;
+    /* burada 3 tane olmasinin sebebi bazi bilgisayarlarda her yazi stilinin calismiyor olmasi. o yuzden biri olmazsa digerini calistiriyor.*/
+    color: #474849;
+    /* color:inherit yazarsak linklerdeki maviligi normale döndürür.*/
+    text-align: center;
+    line-height: 1, 1;
+    font-size: 65px;
+
+    @media (min-width: 720px) {
         font-size: 100px;
-         }
     }
+}
 
 
-    h2 {
-        font-family: sans-serif;
-        color: #cb721c;
-    }
+h2 {
+    font-family: sans-serif;
+    color: #cb721c;
+}
 
-    a {
-        color: rgb(2, 134, 2);
-    }
+a {
+    color: rgb(2, 134, 2);
+}
 
-    a:hover,
-    a:focus-visible {
-        color: rgb(166, 238, 58);
-    }
+a:hover,
+a:focus-visible {
+    color: rgb(166, 238, 58);
+}
 
-    p {
-        font-family: sans-serif;
-    }
+p {
+    font-family: sans-serif;
 
-    .steal-bg {
-        background-color: #22466c;
-        border: #4676a9 solid 5px;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
+}
 
-    .steal-text {
-        color: #22466c;
-    }
+.steal-bg {
+    background-color: #22466c;
+    border: #4676a9 solid 5px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-    .climp-bg {
-        background-image: url(../images/simple-steps.jpg);
-        padding: 24px;
-        border: #4676a9 solid 5px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: white;
-    }
+.steal-text {
+    color: #22466c;
+}
+
+.climp-bg {
+    background-image: url(../images/simple-steps.jpg);
+    padding: 24px;
+    border: #4676a9 solid 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
 
 
-    footer {
-        background-color: #22466c;
-        border: #4676a9 solid 5px;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
+footer {
+    background-color: #22466c;
+    border: #4676a9 solid 5px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
