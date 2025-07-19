@@ -17,7 +17,7 @@ header {
 
 h1 {
     font-family: sans-serif;    /* burada 3 tane olmasinin sebebi bazi bilgisayarlarda her yazi stilinin calismiyor olmasi. o yuzden biri olmazsa digerini calistiriyor.*/
-    color: #4676a9;           /* color:inherit yazarsak linklerdeki maviligi normale döndürür.*/
+    color: #474849;           /* color:inherit yazarsak linklerdeki maviligi normale döndürür.*/
     text-align: center;
     line-height: 1,1;
 }
@@ -30,6 +30,19 @@ h2 {
 p {
     font-family: sans-serif; 
 }
+
+.steal-bg{
+    background-color: #22466c;
+    border: #4676a9 solid 5px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.steal-text{
+    color: #22466c;
+}
+
 
 footer {
     background-color: #22466c;
