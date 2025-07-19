@@ -20,7 +20,8 @@ section {
     display: grid;
     gap: 60px;
 
-    margin-block-end: 60px;
+    margin-block: 60px;
+
 
     @media (min-width: 720px) {
         grid-template-columns: 1fr 1fr;
@@ -45,7 +46,8 @@ header {
     color: black;
 }
 
-.primary-navigation a:hover .primary-navigation a:focus-visible {
+.primary-navigation a:hover 
+.primary-navigation a:focus-visible {
     color: rgb(166, 238, 58);
 }
 
@@ -106,6 +108,8 @@ p {
     background-position: center;
     background-size: cover;
     color: white;
+
+
 }
 
 
