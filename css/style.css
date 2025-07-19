@@ -33,5 +33,8 @@ p {
 
 footer {
     background-color: #22466c;
+    border: #4676a9 solid 5px;
     color: #fff;
+    padding: 20px;
+    text-align: center;
 }
