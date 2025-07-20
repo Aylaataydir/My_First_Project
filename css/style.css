@@ -44,13 +44,11 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    transition: 0.7s;
+    transition: 0.8s;
 }
 
-.primary-navigation a:hover 
-.primary-navigation a:focus-visible {
+.primary-navigation a:hover .primary-navigation a:focus-visible {
     color: rgb(166, 238, 58);
-    
 }
 
 
@@ -87,7 +85,6 @@ a:focus-visible {
 
 p {
     font-family: sans-serif;
-
 }
 
 .steal-bg {
@@ -110,8 +107,6 @@ p {
     background-position: center;
     background-size: cover;
     color: white;
-
-
 }
 
 
