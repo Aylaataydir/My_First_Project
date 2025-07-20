@@ -44,11 +44,13 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    transition: 0.7s;
 }
 
 .primary-navigation a:hover 
 .primary-navigation a:focus-visible {
     color: rgb(166, 238, 58);
+    
 }
 
 
